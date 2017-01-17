@@ -81,7 +81,7 @@ The output file is:
 
 
 ### Spark 
-An ubuntu:16.04 based [Spark](http://spark.apache.org "Spark") container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
+An ubuntu:latest based [Spark](http://spark.apache.org "Spark") container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
 
 ### License 
 MIT
