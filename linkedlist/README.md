@@ -1,13 +1,13 @@
-Overview
-==========
+### Overview
+
+
 There are two ways to run this python code:
 
      1. Bash
      2. Docker container
 
 
-Bash 
-=======
+## Bash 
 ```
 $ python createll.py
 ```
@@ -18,20 +18,18 @@ The output file is:
 ```
 
 
-Docker Container 
-=======
+## Docker Container 
 
 
 
-Spark 
-=====
+# Spark 
 
 An ubuntu:16.04 based [Spark](http://spark.apache.org "Spark") container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
 
 
 
-Docker Environment Setup 
-=====
+# Docker Environment Setup 
+
 
 Clone this repository.
 Go to the directory where the file "Dockerfile" is located.
@@ -56,8 +54,7 @@ docker start ubuntu-spark
 ```
 
 
-Docker Container Run 
-=====
+# Docker Container Run 
 
 There are 2 ways to submit a python program to the spark engine in the ubuntu-spark container:
 From outside of the container:
@@ -82,8 +79,7 @@ $ spark-submit createll.py
 ```
 
 
-Docker Container Output 
-=====
+# Docker Container Output 
 
 To view the output file "linkedlistpageViews.csv",
 shell into the Docker container ubuntu-spark.
@@ -98,6 +94,5 @@ The output file is:
 
 
 
-License 
-==========
+### License 
 MIT
