@@ -2,36 +2,34 @@ Overview
 ======
 
 
-
-There are two ways to run this python code:
+     There are two ways to run this python code:
 
      1. Bash
      2. Docker container
 
 
-## Bash 
+     ## Bash 
 ```
 $ python createll.py
 ```
 
-The output file is:
+     The output file is:
 ```
 ./linkedlistpageViews.csv
 ```
 
 
-## Docker Container 
+     ## Docker Container 
 
 
 
-# Spark 
+     # Spark 
 
-An ubuntu:16.04 based [Spark](http://spark.apache.org "Spark") container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
+     An ubuntu:16.04 based [Spark](http://spark.apache.org "Spark") container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
 
 
 
 # Docker Environment Setup 
-
 
 Clone this repository.
 Go to the directory where the file "Dockerfile" is located.
