@@ -44,6 +44,7 @@ docker start ubuntu-spark
 ##### Docker Container Run 
 
 There are 2 ways to submit a python program to the spark engine in the ubuntu-spark container:
+
 From outside of the container:
 ```sh
 docker exec -it ubuntu-spark spark-submit /home/sparkjobs/createll.py
